@@ -1,0 +1,29 @@
+.color-nav {
+    background-color: black;
+    color: white;
+}
+
+.logo-img {
+    width: 50px;
+}
+
+.logo-carrinho {
+    width: 30px;
+}
+
+.img-carrocel {
+    height: 500px;
+}
+
+.features {
+    
+    padding: 15px 40px;
+}
+
+.img-features {
+    width: 100px;
+    background-color: white;
+}
+
+
+
