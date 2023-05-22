@@ -8,9 +8,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 60px;
     padding: 0px 50px 0px 50px;
-    background-color: black;
+    background-color: rgb(255, 0, 0);
+    color: white; 
 }
 
 .logo-img {
@@ -19,25 +20,27 @@
 }
 
 .nav {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 20px;
-    width: 500px;
-    list-style: none;
+    font-weight: 700;
 }
 
 .nav-link {
-    text-decoration: none;
+    color: white;
 }
 
 .img {
-    height: 500px;
+    height: 600px;
+    width: 100%;
 }
 
 
 
 main {
-    height: 500px;
+    height: 600px;
+}
+
+.container-corpo {
+    width: 95%;
+    padding-left: 10%;
 }
 
 .container-main {
@@ -48,8 +51,7 @@ main {
 
 .card {
     border-radius: 15px;
-    background-color: black;
-    color: #fff;
+    color: black;
 }
 
 .img-card {
@@ -57,29 +59,63 @@ main {
     height: 300px;
     display: flex;
     align-self: center;
-    padding-top: 15px;
+    margin-top: 15px;
     border-radius: 10px;
 
+}
+
+.professor {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
 }
 
 .container-depoimento {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: red;
+    border-bottom: 2px solid beige;
 }
 
 .card-depoimento {
     display: flex;
     flex-direction: column;
-    background-color: black;
     width: 50%;
     padding: 5% 10%;
 }
 
 .img-dep {
+    margin-left: 35%;
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50px;
+}
+
+.par-dep {
+    padding-right: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.par-dep1 {
+    padding-top: 0;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.section-button {
+    border-bottom: 2px solid beige;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.container-footer {
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
